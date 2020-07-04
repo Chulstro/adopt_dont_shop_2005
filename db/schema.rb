@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20200704182559) do
     t.datetime "updated_at", null: false
     t.bigint "shelters_id"
     t.string "description"
-    t.boolean "adoptability"
+    t.boolean "adoptability", default: true
     t.index ["shelters_id"], name: "index_pets_on_shelters_id"
   end
 

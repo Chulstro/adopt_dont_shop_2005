@@ -217,6 +217,8 @@
           1,
           null,
           1,
+          1,
+          1,
           null,
           null
         ]
@@ -224,6 +226,31 @@
       "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/spec/features/pets/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -470,14 +497,18 @@
           null
         ]
       },
-      "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/app/controllers/pets_controller.rb": {
+      "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/app/controllers/shelters_pets_controller.rb": {
         "lines": [
           1,
           1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
+          1,
+          null,
+          null,
           1,
           null,
           null
@@ -490,10 +521,13 @@
           null
         ]
       },
-      "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/app/controllers/shelters_pets_controller.rb": {
+      "/Users/chandlerhulstrom/turing/mod2/projects/adopt_dont_shop_2005/app/controllers/pets_controller.rb": {
         "lines": [
           1,
           1,
+          1,
+          null,
+          null,
           1,
           1,
           null,
@@ -542,6 +576,6 @@
         ]
       }
     },
-    "timestamp": 1593887751
+    "timestamp": 1593897761
   }
 }
