@@ -20,5 +20,10 @@ RSpec.describe "Edit a shelter" do
     fill_in :state, with: "CO"
     fill_in :zip, with: 80504
 
+    click_on "Update Shelter"
+
+    expect(current_path).to eq("/shelters/#{shelter_1.id}")
+    expect(page).to have_content("Habitat for Hippos and Lemurs")
+
   end
 end
