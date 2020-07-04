@@ -8,8 +8,7 @@ RSpec.describe "When I visit the pets index" do
     pet_1 = shelter_1.pets.create(image: "https://resize.hswstatic.com/w_907/gif/hippo-sunscreen.jpg",
       name: "Gloria",
       approx_age: 5,
-      sex: "F",
-      shelter_id: shelter_1.id)
+      sex: "F")
 
       visit "/pets"
 

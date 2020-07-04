@@ -8,5 +8,8 @@ Rails.application.routes.draw do
   delete '/shelters/:id', to: 'shelters#destroy'
 
   get '/pets', to: 'pets#index'
+  get '/pets/:id', to: 'pets#show'
+
+  get '/shelters/:id/pets', to: 'shelters_pets#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
