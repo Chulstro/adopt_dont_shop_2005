@@ -1,5 +1,6 @@
-<h1><%= link_to "Shelter List", "/shelters" %></h1>
-<h2>Edit <%= link_to @shelter.name, "/shelters/#{@shelter.id}" %></h2>
+<h1><%= link_to "Shelter List", "/shelters" %></h1><br></br>
+<h2><%= link_to "Pet List", "/pets" %></h2><br></br>
+<h3>Edit <%= link_to @shelter.name, "/shelters/#{@shelter.id}" %></h3>
 
 <%= form_tag "/shelters/#{@shelter.id}", method: :patch do %>
   <%= label_tag :name %>

@@ -1,5 +1,6 @@
-<h1><%= link_to "Shelter List", "/shelters" %></h1>
-<h2>All Shelters</h2>
+<h1><%= link_to "Shelter List", "/shelters" %></h1><br></br>
+<h2><%= link_to "Pet List", "/pets" %></h2><br></br>
+<h3>All Shelters</h3>
 
 <% @shelters.each do |shelter| %>
   <h2><%= link_to shelter.name, "/shelters/#{shelter.id}" %></h2>

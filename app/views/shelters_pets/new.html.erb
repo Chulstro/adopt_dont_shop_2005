@@ -1,5 +1,6 @@
-<h1><%= link_to "Shelter List", "/shelters" %></h1>
-<h2>Add New Pet</h2>
+<h1><%= link_to "Shelter List", "/shelters" %></h1><br></br>
+<h2><%= link_to "Pet List", "/pets" %></h2><br></br>
+<h3>Add New Pet</h3>
 
 <%= form_tag "/shelters/#{@shelter.id}/pets" do %>
   <%= label_tag :image %>
