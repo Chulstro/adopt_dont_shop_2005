@@ -27,6 +27,7 @@ RSpec.describe "When visiting the Pets Index page" do
       adoptability: true)
 
       visit "/shelters/#{shelter_1.id}/pets"
+      expect(page).to have_content("Gloria")
 
       click_on "Create Pet"
 
@@ -39,6 +40,9 @@ RSpec.describe "When visiting the Pets Index page" do
       fill_in :sex, with: "M"
 
       click_on "Create Pet"
+
+      expect(current_path).to eq("/shelters/#{shelter_1.id}/pets")
+      expect(page).to have_content("Moto Moto")
 
   end
 end
